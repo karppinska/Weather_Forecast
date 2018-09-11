@@ -12,7 +12,7 @@ changeLocationButton.addEventListener('click', function() {
     weather.changeLocation(cityInput.value);
     storage.setLocationData(cityInput.value);
     displayWeather();
-    $('#locationModal').modal('hide'); // bootstrap
+    $('#locationModal').modal('hide'); // bootstrap modal
 });
 
 function displayWeather() {

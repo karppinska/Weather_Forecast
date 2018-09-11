@@ -10,7 +10,6 @@ class Storage {
         } else {
             this.city = this.defaultCity;
         }
-
         return {city: this.city};
     }
 
